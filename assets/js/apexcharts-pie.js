@@ -3,13 +3,13 @@
 
     /* basic pie chart */
     var options = {
-        series: [44, 55, 13, 43, 22],
+        series: [142.7, 81.6, 7.8],
         chart: {
             height: 300,
             type: 'pie',
         },
-        colors: ["#845adf", "#23b7e5", "#f5b849", "#49b6f5", "#e6533c"],
-        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+        colors: ["#845adf", "#23b7e5", "#f5b849"],
+        labels: ['Desktop', 'Mobile', 'App'],
         legend: {
             position: "bottom"
         },

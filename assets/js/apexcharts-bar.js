@@ -4,7 +4,7 @@
     /* basic bar chart */
     var options = {
         series: [{
-            data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+            data: [5666.07, 5263.9, 1354.56, 966.12, 31.42, 26.74, 17.9, 4.12, 1.82, 1.05, 0.3]
         }],
         chart: {
             type: 'bar',
@@ -24,8 +24,8 @@
             enabled: false
         },
         xaxis: {
-            categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-                'United States', 'China', 'Germany'
+            categories: ['Stake', 'Stake_payment', 'deposit', 'withdraw', 'Slot_bet', 'Slot_win', 'Bonus',
+                'Stake_correct', 'Slot_return', 'Partner_payment', 'Withdraw_cancel'
             ],
             labels: {
                 show: true,
